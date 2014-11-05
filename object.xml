@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game GSCVersion="0.10.5" PGFVersion="0.19" title="ZRKE">
-  <tags />
-  <resolutionIndependence>0</resolutionIndependence>
-  <instructions>Add game instructions here.</instructions>
-  <resolution>5</resolution>
-  <longDescription>A simple game.</longDescription>
-  <prototypes />
-  <plugins />
-  <scenes>
-    <scene id="id789555" />
-  </scenes>
   <attributes>
     <text id="name">default name</text>
     <real id="time">0</real>
@@ -19,4 +9,16 @@
     </size>
     <text id="actorTags" />
   </attributes>
+  <tags />
+  <resolutionIndependence>0</resolutionIndependence>
+  <instructions>Add game instructions here.</instructions>
+  <resolution>5</resolution>
+  <longDescription>A simple game.</longDescription>
+  <prototypes>
+    <actor id="id693240" />
+  </prototypes>
+  <plugins />
+  <scenes>
+    <scene id="id789555" />
+  </scenes>
 </game>
