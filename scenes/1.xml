@@ -2,7 +2,30 @@
 <scene PGFVersion="0.19" GSCVersion="0.10.5" id="id789555">
   <layers>
     <layer id="id870852">
-      <actors />
+      <actors>
+        <actor id="id613607" prototype="id642967">
+          <attributes>
+            <point id="position">
+              <real id="x">98.5</real>
+              <real id="y">629</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+      </actors>
       <attributes>
         <text id="name">Background</text>
         <boolean id="scrollable">true</boolean>
