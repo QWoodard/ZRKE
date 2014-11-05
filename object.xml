@@ -16,11 +16,8 @@
   <longDescription>A simple game.</longDescription>
   <prototypes>
     <actor id="id693240" />
-<<<<<<< HEAD
     <actor id="id536306" />
-=======
     <actor id="id761265" />
->>>>>>> pr/3
   </prototypes>
   <plugins />
   <scenes>
