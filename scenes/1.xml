@@ -17,6 +17,31 @@
           </attributes>
           <aspects>
             <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id160465" prototype="id218933">
+          <attributes>
+            <point id="position">
+              <real id="x">594.5</real>
+              <real id="y">476</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
               <attributes />
             </graphics>
             <motion />
