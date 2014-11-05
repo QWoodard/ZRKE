@@ -3,11 +3,11 @@
   <layers>
     <layer id="id870852">
       <actors>
-        <actor id="id665058" prototype="id218933">
+        <actor id="id613607" prototype="id642967">
           <attributes>
             <point id="position">
-              <real id="x">372.5</real>
-              <real id="y">526</real>
+              <real id="x">98.5</real>
+              <real id="y">629</real>
             </point>
             <size id="size">
               <real id="width">120</real>
