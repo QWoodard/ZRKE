@@ -16,6 +16,7 @@
   <longDescription>A simple game.</longDescription>
   <prototypes>
     <actor id="id693240" />
+    <actor id="id536306" />
   </prototypes>
   <plugins />
   <scenes>
