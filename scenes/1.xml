@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.19" GSCVersion="0.10.5" id="id789555">
+<scene PGFVersion="0.19" GSCVersion="0.10.5" id="id852469">
   <layers>
-    <layer id="id870852">
+    <layer id="id604852">
       <actors>
-        <actor id="id613607" prototype="id642967">
+        <actor id="id331046" prototype="id868806">
           <attributes>
             <point id="position">
-              <real id="x">98.5</real>
-              <real id="y">629</real>
+              <real id="x">512</real>
+              <real id="y">661.85546875</real>
             </point>
-            <size id="size">
-              <real id="width">120</real>
-              <real id="height">120</real>
-            </size>
             <angle id="rotation">0</angle>
+            <image id="image">lvl 1 bg</image>
           </attributes>
           <aspects>
             <graphics>
@@ -28,21 +25,69 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id160465" prototype="id218933">
+        <actor id="id726143" prototype="id690708">
           <attributes>
             <point id="position">
-              <real id="x">594.5</real>
-              <real id="y">476</real>
+              <real id="x">512</real>
+              <real id="y">623.89453125</real>
             </point>
-            <size id="size">
-              <real id="width">120</real>
-              <real id="height">120</real>
-            </size>
-            <angle id="rotation">0</angle>
+            <image id="image">Title</image>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">1</real>
+              <real id="blue">1</real>
+              <real id="alpha">1</real>
+            </color>
+          </attributes>
+          <behaviors />
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id461130" prototype="id188547">
+          <attributes>
+            <point id="position">
+              <real id="x">514</real>
+              <real id="y">457.09765625</real>
+            </point>
+            <image id="image">Play</image>
           </attributes>
           <aspects>
             <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
               <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id225542" prototype="id980679">
+          <attributes>
+            <point id="position">
+              <real id="x">512</real>
+              <real id="y">156.33203125</real>
+            </point>
+            <image id="image">Credits</image>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -58,11 +103,11 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Initial Scene</text>
+    <text id="name">Splash</text>
     <real id="time">0</real>
     <size id="size">
-      <real id="width">1280</real>
-      <real id="height">720</real>
+      <real id="width">1024</real>
+      <real id="height">768</real>
     </size>
     <boolean id="wrapX">false</boolean>
     <boolean id="wrapY">false</boolean>
@@ -82,12 +127,12 @@
         <real id="y">0</real>
       </point>
       <size id="size">
-        <real id="width">1280</real>
-        <real id="height">720</real>
+        <real id="width">1024</real>
+        <real id="height">768</real>
       </size>
       <size id="trackingArea">
-        <real id="width">1200</real>
-        <real id="height">660</real>
+        <real id="width">944</real>
+        <real id="height">688</real>
       </size>
       <real id="rotation">0</real>
     </rect>

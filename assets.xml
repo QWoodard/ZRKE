@@ -1,6 +1,377 @@
 <?xml version="1.0" encoding="utf-8"?>
 <assets PGFVersion="0.19" GSCVersion="0.10.5">
-  <sounds />
-  <images />
+  <sounds>
+    <sound name="Checkpoint">
+      <file name="Checkpoint.ogg" size="19746" />
+    </sound>
+    <sound name="Coin">
+      <file name="Coin.ogg" size="6494" />
+    </sound>
+    <sound name="Death">
+      <file name="Death.ogg" size="11870" />
+    </sound>
+    <sound name="Jump">
+      <file name="Jump.ogg" size="5956" />
+    </sound>
+    <sound name="Powerup">
+      <file name="Powerup.ogg" size="8481" />
+    </sound>
+    <sound name="Spring">
+      <file name="Spring.ogg" size="13423" />
+    </sound>
+    <sound name="Enemy-dead">
+      <file name="Enemy-dead.ogg" size="8290" />
+    </sound>
+  </sounds>
+  <images>
+    <image name="Elevator">
+      <file name="Elevator.png" size="4224" />
+    </image>
+    <image name="Slider">
+      <file name="Slider.png" size="4073" />
+    </image>
+    <image name="Platform-01">
+      <file name="Platform-01.png" size="3513" />
+    </image>
+    <image name="Platform-02">
+      <file name="Platform-02.png" size="2941" />
+    </image>
+    <image name="Platform-03">
+      <file name="Platform-03.png" size="2807" />
+    </image>
+    <image name="Background">
+      <file name="Background.png" size="1705919" />
+    </image>
+    <image name="p3_walk_01">
+      <file name="p3_walk_01.png" size="4423" />
+    </image>
+    <image name="p3_walk_02">
+      <file name="p3_walk_02.png" size="4377" />
+    </image>
+    <image name="p3_walk_03">
+      <file name="p3_walk_03.png" size="4514" />
+    </image>
+    <image name="p3_walk_04">
+      <file name="p3_walk_04.png" size="4656" />
+    </image>
+    <image name="p3_walk_05">
+      <file name="p3_walk_05.png" size="4441" />
+    </image>
+    <image name="p3_walk_06">
+      <file name="p3_walk_06.png" size="4378" />
+    </image>
+    <image name="p3_walk_07">
+      <file name="p3_walk_07.png" size="4297" />
+    </image>
+    <image name="p3_jump">
+      <file name="p3_jump.png" size="6050" />
+    </image>
+    <image name="dropper">
+      <file name="dropper.png" size="2978" />
+    </image>
+    <image name="spring-down">
+      <file name="spring-down.png" size="2079" />
+    </image>
+    <image name="spring-up">
+      <file name="spring-up.png" size="2859" />
+    </image>
+    <image name="slime-01">
+      <file name="slime-01.png" size="2561" />
+    </image>
+    <image name="slime-02">
+      <file name="slime-02.png" size="2535" />
+    </image>
+    <image name="slime-03">
+      <file name="slime-03.png" size="1854" />
+    </image>
+    <image name="player-dead">
+      <file name="player-dead.png" size="4230" />
+    </image>
+    <image name="power-up-empty">
+      <file name="power-up-empty.png" size="3435" />
+    </image>
+    <image name="power-up-full">
+      <file name="power-up-full.png" size="3578" />
+    </image>
+    <image name="star">
+      <file name="star.png" size="2724" />
+    </image>
+    <image name="bee-01">
+      <file name="bee-01.png" size="3979" />
+    </image>
+    <image name="bee-02">
+      <file name="bee-02.png" size="3594" />
+    </image>
+    <image name="bee-dead">
+      <file name="bee-dead.png" size="4095" />
+    </image>
+    <image name="checkpoint-01">
+      <file name="checkpoint-01.png" size="2407" />
+    </image>
+    <image name="checkpoint-02">
+      <file name="checkpoint-02.png" size="2367" />
+    </image>
+    <image name="scenery-bush">
+      <file name="scenery-bush.png" size="1443" />
+    </image>
+    <image name="scenery-cloud">
+      <file name="scenery-cloud.png" size="2679" />
+    </image>
+    <image name="scenery-grass">
+      <file name="scenery-grass.png" size="2264" />
+    </image>
+    <image name="scenery-rock">
+      <file name="scenery-rock.png" size="2100" />
+    </image>
+    <image name="spikes">
+      <file name="spikes.png" size="606" />
+    </image>
+    <image name="life-heart">
+      <file name="life-heart.png" size="4551" />
+    </image>
+    <image name="coin">
+      <file name="coin.png" size="1444" />
+    </image>
+    <image name="crate">
+      <file name="crate.png" size="2457" />
+    </image>
+    <image name="lava">
+      <file name="lava.png" size="1283" />
+    </image>
+    <image name="lava02">
+      <file name="lava02.png" size="1334" />
+    </image>
+    <image name="lava03">
+      <file name="lava03.png" size="1312" />
+    </image>
+    <image name="lava04">
+      <file name="lava04.png" size="1287" />
+    </image>
+    <image name="lava05">
+      <file name="lava05.png" size="1278" />
+    </image>
+    <image name="exit-level">
+      <file name="exit-level.png" size="3896" />
+    </image>
+    <image name="switch-up">
+      <file name="switch-up.png" size="2735" />
+    </image>
+    <image name="switch-down">
+      <file name="switch-down.png" size="1378" />
+    </image>
+    <image name="gate">
+      <file name="gate.png" size="2541" />
+    </image>
+    <image name="left">
+      <file name="left.png" size="5237" />
+    </image>
+    <image name="right">
+      <file name="right.png" size="5321" />
+    </image>
+    <image name="up">
+      <file name="up.png" size="5138" />
+    </image>
+    <image name="zombie 3_00001">
+      <file name="zombie 3_00001.png" size="44414" />
+    </image>
+    <image name="zombie 3_00010">
+      <file name="zombie 3_00010.png" size="44368" />
+    </image>
+    <image name="zombie 3_00020">
+      <file name="zombie 3_00020.png" size="44526" />
+    </image>
+    <image name="zombie 3_00030">
+      <file name="zombie 3_00030.png" size="44564" />
+    </image>
+    <image name="zombie 3_00040">
+      <file name="zombie 3_00040.png" size="44765" />
+    </image>
+    <image name="zombie 3_00050">
+      <file name="zombie 3_00050.png" size="44414" />
+    </image>
+    <image name="zombie 3_00060">
+      <file name="zombie 3_00060.png" size="44414" />
+    </image>
+    <image name="zombie 3_00067">
+      <file name="zombie 3_00067.png" size="44414" />
+    </image>
+    <image name="zombie 3_00070">
+      <file name="zombie 3_00070.png" size="44414" />
+    </image>
+    <image name="Zombie 6_00003">
+      <file name="Zombie 6_00003.png" size="4460" />
+    </image>
+    <image name="Zombie 6_00004">
+      <file name="Zombie 6_00004.png" size="4399" />
+    </image>
+    <image name="Zombie 6_00005">
+      <file name="Zombie 6_00005.png" size="4411" />
+    </image>
+    <image name="Zombie 6_00006">
+      <file name="Zombie 6_00006.png" size="4330" />
+    </image>
+    <image name="Zombie 6_00001">
+      <file name="Zombie 6_00001.png" size="4412" />
+    </image>
+    <image name="Zombie 6_00002">
+      <file name="Zombie 6_00002.png" size="4393" />
+    </image>
+    <image name="cakeMid">
+      <file name="cakeMid.png" size="1990" />
+    </image>
+    <image name="cakeCenter">
+      <file name="cakeCenter.png" size="1731" />
+    </image>
+    <image name="cakeCenter_rounded">
+      <file name="cakeCenter_rounded.png" size="2214" />
+    </image>
+    <image name="cakeHalfAltMid">
+      <file name="cakeHalfAltMid.png" size="2184" />
+    </image>
+    <image name="cookiePink">
+      <file name="cookiePink.png" size="1489" />
+    </image>
+    <image name="cookieChoco">
+      <file name="cookieChoco.png" size="1586" />
+    </image>
+    <image name="hillCanePink">
+      <file name="hillCanePink.png" size="1457" />
+    </image>
+    <image name="creamPink">
+      <file name="creamPink.png" size="1934" />
+    </image>
+    <image name="cupCake">
+      <file name="cupCake.png" size="1763" />
+    </image>
+    <image name="cherry">
+      <file name="cherry.png" size="2795" />
+    </image>
+    <image name="chocoHalfAltMid">
+      <file name="chocoHalfAltMid.png" size="2200" />
+    </image>
+    <image name="chocoCliffRight">
+      <file name="chocoCliffRight.png" size="2528" />
+    </image>
+    <image name="chocoMid">
+      <file name="chocoMid.png" size="2115" />
+    </image>
+    <image name="chocoCenter">
+      <file name="chocoCenter.png" size="1902" />
+    </image>
+    <image name="chocoHillRight">
+      <file name="chocoHillRight.png" size="1429" />
+    </image>
+    <image name="lvl 1 bg">
+      <file name="lvl 1 bg.png" size="534944" />
+    </image>
+    <image name="Settings">
+      <file name="Settings.png" size="7356" />
+    </image>
+    <image name="Title">
+      <file name="Title.png" size="15482" />
+    </image>
+    <image name="Credits">
+      <file name="Credits.png" size="7728" />
+    </image>
+    <image name="Play">
+      <file name="Play.png" size="6301" />
+    </image>
+    <image name="Quit">
+      <file name="Quit.png" size="6711" />
+    </image>
+    <image name="chocoHillLeft2">
+      <file name="chocoHillLeft2.png" size="1905" />
+    </image>
+    <image name="chocoHillRight2">
+      <file name="chocoHillRight2.png" size="1958" />
+    </image>
+    <image name="liquidWater">
+      <file name="liquidWater.png" size="896" />
+    </image>
+    <image name="but1">
+      <file name="but1.png" size="25340" />
+    </image>
+    <image name="but3">
+      <file name="but3.png" size="23795" />
+    </image>
+    <image name="but5">
+      <file name="but5.png" size="25247" />
+    </image>
+    <image name="but7">
+      <file name="but7.png" size="25505" />
+    </image>
+    <image name="but9">
+      <file name="but9.png" size="25456" />
+    </image>
+    <image name="but11">
+      <file name="but11.png" size="25260" />
+    </image>
+    <image name="but13">
+      <file name="but13.png" size="23795" />
+    </image>
+    <image name="Explosion2_001">
+      <file name="Explosion2_001.png" size="7223" />
+    </image>
+    <image name="Explosion2_005">
+      <file name="Explosion2_005.png" size="47520" />
+    </image>
+    <image name="Explosion2_009">
+      <file name="Explosion2_009.png" size="88842" />
+    </image>
+    <image name="Explosion2_013">
+      <file name="Explosion2_013.png" size="119114" />
+    </image>
+    <image name="Explosion2_017">
+      <file name="Explosion2_017.png" size="115296" />
+    </image>
+    <image name="Explosion2_021">
+      <file name="Explosion2_021.png" size="85663" />
+    </image>
+    <image name="cat 1_00001">
+      <file name="cat 1_00001.png" size="38662" />
+    </image>
+    <image name="cat 1_00002">
+      <file name="cat 1_00002.png" size="38335" />
+    </image>
+    <image name="cat 1_00003">
+      <file name="cat 1_00003.png" size="38545" />
+    </image>
+    <image name="cat 1_00004">
+      <file name="cat 1_00004.png" size="38898" />
+    </image>
+    <image name="cat 1_00005">
+      <file name="cat 1_00005.png" size="38981" />
+    </image>
+    <image name="cat 1_00006">
+      <file name="cat 1_00006.png" size="38897" />
+    </image>
+    <image name="cat 1_00007">
+      <file name="cat 1_00007.png" size="38843" />
+    </image>
+    <image name="brain transparent2">
+      <file name="brain transparent2.png" size="110708" />
+    </image>
+    <image name="rainbow1">
+      <file name="rainbow1.png" size="2832" />
+    </image>
+    <image name="rainbow2">
+      <file name="rainbow2.png" size="3756" />
+    </image>
+    <image name="rainbow3">
+      <file name="rainbow3.png" size="5720" />
+    </image>
+    <image name="rainbow4">
+      <file name="rainbow4.png" size="7471" />
+    </image>
+    <image name="rainbow5">
+      <file name="rainbow5.png" size="9108" />
+    </image>
+    <image name="rainbow6">
+      <file name="rainbow6.png" size="12407" />
+    </image>
+    <image name="rainbow7">
+      <file name="rainbow7.png" size="15648" />
+    </image>
+  </images>
   <behaviors />
 </assets>
